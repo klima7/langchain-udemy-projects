@@ -1,0 +1,149 @@
+[
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "BaseCallbackHandler",
+        "importPath": "langchain_core.callbacks.base",
+        "description": "langchain_core.callbacks.base",
+        "isExtraImport": true,
+        "detail": "langchain_core.callbacks.base",
+        "documentation": {}
+    },
+    {
+        "label": "LLMResult",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "AgentAction",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "AgentFinish",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "tool",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "render_text_description",
+        "importPath": "langchain.tools.render",
+        "description": "langchain.tools.render",
+        "isExtraImport": true,
+        "detail": "langchain.tools.render",
+        "documentation": {}
+    },
+    {
+        "label": "StrOutputParser",
+        "importPath": "langchain_core.output_parsers",
+        "description": "langchain_core.output_parsers",
+        "isExtraImport": true,
+        "detail": "langchain_core.output_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "ReActSingleInputOutputParser",
+        "importPath": "langchain.agents.output_parsers",
+        "description": "langchain.agents.output_parsers",
+        "isExtraImport": true,
+        "detail": "langchain.agents.output_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "format_log_to_str",
+        "importPath": "langchain.agents.format_scratchpad.log",
+        "description": "langchain.agents.format_scratchpad.log",
+        "isExtraImport": true,
+        "detail": "langchain.agents.format_scratchpad.log",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "Tool",
+        "importPath": "langchain.tools",
+        "description": "langchain.tools",
+        "isExtraImport": true,
+        "detail": "langchain.tools",
+        "documentation": {}
+    },
+    {
+        "label": "AgentCallbackHandler",
+        "importPath": "callbacks",
+        "description": "callbacks",
+        "isExtraImport": true,
+        "detail": "callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "AgentCallbackHandler",
+        "kind": 6,
+        "importPath": "callbacks",
+        "description": "callbacks",
+        "peekOfCode": "class AgentCallbackHandler(BaseCallbackHandler):\n    def on_llm_start(self, serialized: dict[str, Any], prompts: list[str], **kwargs: Any) -> None:\n        print(f\"***Prompt to LLM was:***\\n{prompts[0]}\")\n        print(\"******\")\n    def on_llm_end(self, response: LLMResult, **kwargs: Any) -> None:\n        print(f\"***LLM response:***\\n{response.generations[0][0].text}\")\n        print(\"******\")",
+        "detail": "callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "get_text_length",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def get_text_length(text: str) -> int:\n    \"\"\"Returns the length of a text by characters\"\"\"\n    text = text.strip(\"'\\n\").strip('\"')\n    return len(text)\ndef find_tool_by_name(tools: list[Tool], tool_name: str) -> Tool:\n    for tool in tools:\n        if tool.name == tool_name:\n            return tool\n    raise ValueError(f\"Tool with name {tool_name} not found\")\nif __name__ == \"__main__\":",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "find_tool_by_name",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def find_tool_by_name(tools: list[Tool], tool_name: str) -> Tool:\n    for tool in tools:\n        if tool.name == tool_name:\n            return tool\n    raise ValueError(f\"Tool with name {tool_name} not found\")\nif __name__ == \"__main__\":\n    tools = [get_text_length]\n    template = \"\"\"\nAnswer the following questions as best you can. You have access to the following tools:\n{tools}",
+        "detail": "main",
+        "documentation": {}
+    }
+]

@@ -1,0 +1,464 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "Tool",
+        "importPath": "langchain_core.tools",
+        "description": "langchain_core.tools",
+        "isExtraImport": true,
+        "detail": "langchain_core.tools",
+        "documentation": {}
+    },
+    {
+        "label": "Tool",
+        "importPath": "langchain_core.tools",
+        "description": "langchain_core.tools",
+        "isExtraImport": true,
+        "detail": "langchain_core.tools",
+        "documentation": {}
+    },
+    {
+        "label": "create_react_agent",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "AgentExecutor",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "create_react_agent",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "AgentExecutor",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "hub",
+        "importPath": "langchain",
+        "description": "langchain",
+        "isExtraImport": true,
+        "detail": "langchain",
+        "documentation": {}
+    },
+    {
+        "label": "hub",
+        "importPath": "langchain",
+        "description": "langchain",
+        "isExtraImport": true,
+        "detail": "langchain",
+        "documentation": {}
+    },
+    {
+        "label": "get_profile_url_tavily",
+        "importPath": "tools.tools",
+        "description": "tools.tools",
+        "isExtraImport": true,
+        "detail": "tools.tools",
+        "documentation": {}
+    },
+    {
+        "label": "get_profile_url_tavily",
+        "importPath": "tools.tools",
+        "description": "tools.tools",
+        "isExtraImport": true,
+        "detail": "tools.tools",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "tweepy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tweepy",
+        "description": "tweepy",
+        "detail": "tweepy",
+        "documentation": {}
+    },
+    {
+        "label": "TavilySearchResults",
+        "importPath": "langchain_community.tools.tavily_search",
+        "description": "langchain_community.tools.tavily_search",
+        "isExtraImport": true,
+        "detail": "langchain_community.tools.tavily_search",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "ice_break_with",
+        "importPath": "ice_breaker",
+        "description": "ice_breaker",
+        "isExtraImport": true,
+        "detail": "ice_breaker",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "StrOutputParser",
+        "importPath": "langchain_core.output_parsers",
+        "description": "langchain_core.output_parsers",
+        "isExtraImport": true,
+        "detail": "langchain_core.output_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "PydanticOutputParser",
+        "importPath": "langchain_core.output_parsers",
+        "description": "langchain_core.output_parsers",
+        "isExtraImport": true,
+        "detail": "langchain_core.output_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_linkedin_profile",
+        "importPath": "third_parties.linkedin",
+        "description": "third_parties.linkedin",
+        "isExtraImport": true,
+        "detail": "third_parties.linkedin",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_user_tweets",
+        "importPath": "third_parties.twitter",
+        "description": "third_parties.twitter",
+        "isExtraImport": true,
+        "detail": "third_parties.twitter",
+        "documentation": {}
+    },
+    {
+        "label": "lookup",
+        "importPath": "agents.linkedin_lookup_agent",
+        "description": "agents.linkedin_lookup_agent",
+        "isExtraImport": true,
+        "detail": "agents.linkedin_lookup_agent",
+        "documentation": {}
+    },
+    {
+        "label": "lookup",
+        "importPath": "agents.twitter_lookup_agent",
+        "description": "agents.twitter_lookup_agent",
+        "isExtraImport": true,
+        "detail": "agents.twitter_lookup_agent",
+        "documentation": {}
+    },
+    {
+        "label": "summary_parser",
+        "importPath": "output_parsers",
+        "description": "output_parsers",
+        "isExtraImport": true,
+        "detail": "output_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "Summary",
+        "importPath": "output_parsers",
+        "description": "output_parsers",
+        "isExtraImport": true,
+        "detail": "output_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "lookup",
+        "kind": 2,
+        "importPath": "agents.linkedin_lookup_agent",
+        "description": "agents.linkedin_lookup_agent",
+        "peekOfCode": "def lookup(name: str) -> str:\n    llm = ChatOpenAI(\n        temperature=0,\n        name=\"gpt-4o-mini\",\n    )\n    template = \"\"\"\ngiven the full name {name_of_person} I want you to get it me a link to their Linkedin profile page.\nYour answer should contain only a URL\n\"\"\".strip()\n    prompt_template = PromptTemplate(",
+        "detail": "agents.linkedin_lookup_agent",
+        "documentation": {}
+    },
+    {
+        "label": "lookup",
+        "kind": 2,
+        "importPath": "agents.twitter_lookup_agent",
+        "description": "agents.twitter_lookup_agent",
+        "peekOfCode": "def lookup(name: str) -> str:\n    llm = ChatOpenAI(\n        temperature=0,\n        name=\"gpt-4o-mini\",\n    )\n    template = \"\"\"\nGiven the name {name_of_person} I want you to find a link to their Twitter profile page, and extract from it their username.\nIn your final answer leave only the  person's username\n\"\"\".strip()\n    prompt_template = PromptTemplate(",
+        "detail": "agents.twitter_lookup_agent",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_linkedin_profile",
+        "kind": 2,
+        "importPath": "third_parties.linkedin",
+        "description": "third_parties.linkedin",
+        "peekOfCode": "def scrape_linkedin_profile(linkedin_profile_url: str, mock: bool = False):\n    \"\"\"scrape information from LinkedIn profiles\"\"\"\n    if mock:\n        linkedin_profile_url = \"https://gist.githubusercontent.com/emarco177/859ec7d786b45d8e3e3f688c6c9139d8/raw/5eaf8e46dc29a98612c8fe0c774123a7a2ac4575/eden-marco-scrapin.json\"\n        response = requests.get(linkedin_profile_url, timeout=10)\n    else:\n        api_endpoint = \"https://api.scrapin.io./enrichment/profile\"\n        params = {\n            \"apikey\": os.environ.get(\"SCRAPIN_API_KEY\"),\n            \"linkedInUrl\": linkedin_profile_url,",
+        "detail": "third_parties.linkedin",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_user_tweets",
+        "kind": 2,
+        "importPath": "third_parties.twitter",
+        "description": "third_parties.twitter",
+        "peekOfCode": "def scrape_user_tweets(username, num_tweets=5, mock: bool = False):\n    \"\"\"\n    Scrape a user's tweets from Twitter\n    \"\"\"\n    tweet_list = []\n    if mock:\n        EDEN_TWITTER_GIST = \"https://gist.githubusercontent.com/emarco177/9d4fdd52dc432c72937c6e383dd1c7cc/raw/1675c4b1595ec0ddd8208544a4f915769465ed6a/eden-marco-tweets.json\"\n        tweets = requests.get(EDEN_TWITTER_GIST, timeout=10).json()\n        for tweet in tweets:\n            tweet_dict = {}",
+        "detail": "third_parties.twitter",
+        "documentation": {}
+    },
+    {
+        "label": "get_profile_url_tavily",
+        "kind": 2,
+        "importPath": "tools.tools",
+        "description": "tools.tools",
+        "peekOfCode": "def get_profile_url_tavily(name: str) -> str:\n    \"\"\"Searches for Linkedin or Twitter Profile Page\"\"\"\n    search = TavilySearchResults()\n    res = search.run(name)\n    return res",
+        "detail": "tools.tools",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def index():\n    return render_template(\"index.html\")\n@app.route(\"/process\", methods=[\"POST\"])\ndef process():\n    name = request.form[\"name\"]\n    summary, profile_pic_url = ice_break_with(name)\n    return jsonify({\n        \"summary_and_facts\": summary.to_dict(),\n        \"picture_url\": profile_pic_url\n    })",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "process",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def process():\n    name = request.form[\"name\"]\n    summary, profile_pic_url = ice_break_with(name)\n    return jsonify({\n        \"summary_and_facts\": summary.to_dict(),\n        \"picture_url\": profile_pic_url\n    })\nif __name__ == \"__main__\":\n    app.run(host=\"0.0.0.0\", debug=True)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\n@app.route(\"/\")\ndef index():\n    return render_template(\"index.html\")\n@app.route(\"/process\", methods=[\"POST\"])\ndef process():\n    name = request.form[\"name\"]\n    summary, profile_pic_url = ice_break_with(name)\n    return jsonify({\n        \"summary_and_facts\": summary.to_dict(),",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "ice_break_with",
+        "kind": 2,
+        "importPath": "ice_breaker",
+        "description": "ice_breaker",
+        "peekOfCode": "def ice_break_with(name: str) -> Tuple[Summary, str]:\n    linkedin_username = linkedin_lookup_agent(name=name)\n    linkedin_data = scrape_linkedin_profile(linkedin_profile_url=linkedin_username, mock=True)\n    twitter_username = twitter_lookup_agent(name=name)\n    twitter_data = scrape_user_tweets(username=twitter_username, mock=True)\n    summary_template = \"\"\"\n    given the information about a person from linkedin {information},\n    and latest twitter posts {twitter_posts} I want you to create:\n    1. A short summary\n    2. two interesting facts about them",
+        "detail": "ice_breaker",
+        "documentation": {}
+    },
+    {
+        "label": "Summary",
+        "kind": 6,
+        "importPath": "output_parsers",
+        "description": "output_parsers",
+        "peekOfCode": "class Summary(BaseModel):\n    summary: str = Field(description=\"A summary of the person\")\n    facts: List[str] = Field(description=\"interesting facts about them\")\n    def to_dict(self) -> Dict[str, Any]:\n        return {\n            \"summary\": self.summary,\n            \"facts\": self.facts\n        }\nsummary_parser = PydanticOutputParser(pydantic_object=Summary)",
+        "detail": "output_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "summary_parser",
+        "kind": 5,
+        "importPath": "output_parsers",
+        "description": "output_parsers",
+        "peekOfCode": "summary_parser = PydanticOutputParser(pydantic_object=Summary)",
+        "detail": "output_parsers",
+        "documentation": {}
+    }
+]
