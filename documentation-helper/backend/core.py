@@ -29,7 +29,11 @@ def run_llm(query: str):
     )
     
     result = retrieval_qa_chain.invoke({"input": query})
-    return result["answer"]
+    return dict(
+        query = result["input"],
+        result=result["answer"],
+        source_documents=result["context"],
+    )
 
 
 if __name__ == "__main__":
