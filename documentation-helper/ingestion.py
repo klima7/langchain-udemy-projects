@@ -3,6 +3,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import ReadTheDocsLoader
 from langchain_openai import OpenAIEmbeddings
 from langchain_pinecone import PineconeVectorStore
+from langchain_community.document_loaders import FireCrawlLoader
 
 
 load_dotenv()
@@ -32,6 +33,36 @@ def ingest_docs():
         index_name="langchain-doc-index",
     )
     print("Documents added to Pinecone")
+    
+    
+def ingest_docs2():
+    
+    langchain_documents_base_urls = [
+        "https://python.langchain.com/docs/introduction/"
+    ]
+    
+    for url in langchain_documents_base_urls:
+        print(f"FireCrawling {url}")
+        loader = FireCrawlLoader(
+            url=url,
+            mode="crawl",
+            params={
+                # "crawlerOptions": {"limit": 5},
+                "pageOptions": {"onlyMainContent": True},
+                # "wait_until_done": True,
+            }
+        )
+        docs = loader.load()
+        
+        print(f"Going to add {len(docs)} documents to Pinecone")
+        PineconeVectorStore.from_documents(
+            docs,
+            embeddings,
+            index_name="firecrawl-index",
+        )
+        print("Documents added to Pinecone")
+    
+    
 
 if __name__ == "__main__":
-    ingest_docs()
+    ingest_docs2()
